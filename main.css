@@ -8,7 +8,7 @@ body {
   background-size:cover;
   background-attachment: scroll;
   width: auto;
-  height: 1050px;
+  height: 1080px;
   font-family: 'Ropa Sans', sans-serif;
 }
 
@@ -141,24 +141,25 @@ body {
   background-color: #2A2D2E;
   height: 70px;
   opacity: 0.7;
-  text-align: center;
   font-size: 18px;
-  position: fixed; left: 0px; bottom: 0px; right: 0px;
+  position: left: 0px; bottom: 0px; right: 0px;
   z-index: 1000;
   display: flex;
 }
 
 .social {
   display: inline-block;
-  border: 1px solid red;
-  margin: 0px auto;
+  /*margin: 0px auto;*/
+  width: 50%;
+  text-align: center;
 }
 
 #legal {
   display: inline-block;
-  border: 1px solid blue;
   color: white;
   padding: 25px 10px;
+  text-align: center;
+  width: 50%;
 }
 
 #FBlogo > img {
