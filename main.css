@@ -150,25 +150,27 @@ body {
 
 .social {
   display: inline-block;
-  text-align: center;
+  border: 1px solid red;
+  margin: 0px auto;
 }
 
-.legal {
-  text-align: center;
+#legal {
   display: inline-block;
-  position: fixed;
+  border: 1px solid blue;
+  color: white;
+  padding: 25px 10px;
 }
 
 #FBlogo > img {
   height: 50px;
   width: 50px;
-  padding: 20px;
+  padding: 10px 20px;
   display: inline-block;
 }
 
 #INSlogo > img {
   height: 50px;
   width: 50px;
-  padding: 20px;
+  padding: 10px 20px;
   display: inline-block;
 }
