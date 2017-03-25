@@ -26,7 +26,7 @@ hgroup, menu, nav, section, summary {
   background-size:cover;
   background-attachment: scroll;
   width: auto;
-  height: 1080px;
+  height: auto;
   font-family: 'Ropa Sans', sans-serif;
 }
 
@@ -71,24 +71,21 @@ hgroup, menu, nav, section, summary {
 
 .contact-content {
   display: flex;
-  border: 1px solid green;
   margin: 10px;
 }
 
 .helper1 {
-  border: 1px solid blue;
   display: inline-block;
-  padding: 15px;
+  padding: 30px;
 }
 
 #text {
   margin: 20px auto;
   display: inline-block;
-  border: 1px solid red;
 }
 
 p {
-  color: white;
+  color: #DCDFE0;
   letter-spacing: .1em;
   font-size: 22px;
   margin: 10px;
@@ -138,7 +135,25 @@ textarea {
 #About {
   width: 35%;
   display: inline-block;
-  padding: 15px;
+  padding: 150px 30px 30px 30px;
+  color: #DCDFE0;
+  letter-spacing: .1em;
+  font-size: 22px;
+}
+
+span, #About > a {
+  display: block;
+  margin: 30px;
+  border-bottom: 1px solid red;
+}
+
+#About > a {
+  color: #B6B7B8;
+}
+
+#About > a:hover {
+    color: #C8D8DE;
+    cursor: pointer;
 }
 
 .Footer{
@@ -146,7 +161,7 @@ textarea {
   height: 70px;
   opacity: 0.7;
   font-size: 18px;
-  position: left: 0px; bottom: 0px; right: 0px;
+  margin: 0px;
   z-index: 1000;
   display: flex;
 }
@@ -160,7 +175,7 @@ textarea {
 
 #legal {
   display: inline-block;
-  color: white;
+  color: #DCDFE0;
   padding: 25px 10px;
   text-align: center;
   width: 50%;
