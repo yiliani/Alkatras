@@ -20,6 +20,10 @@ hgroup, menu, nav, section, summary {
     text-decoration: none;
 }
 
+body {
+  background-color: black;
+}
+
 .content {
   background-color: black;
   /*background-image: url(./img/background2.jpg);*/
@@ -144,7 +148,7 @@ textarea {
 span, #About > a {
   display: block;
   margin: 30px;
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid #665600;
 }
 
 #About > a {
