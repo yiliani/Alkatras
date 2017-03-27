@@ -95,7 +95,7 @@ input {
   font-family: 'Ropa Sans', sans-serif;
   font-size: 20px;
   height: 40px;
-  width: 70%;
+  width: 80%;
   margin: 10px;
   border-radius: 2px;
 }
@@ -104,7 +104,7 @@ textarea {
   font-family: 'Ropa Sans', sans-serif;
   font-size: 20px;
   height: 120px;
-  width: 70%;
+  width: 80%;
   margin: 10px;
   border-radius: 2px;
 }
@@ -148,7 +148,7 @@ span, #About > a {
 }
 
 #About > a {
-  color: #B6B7B8;
+  color: #81888A;
 }
 
 #About > a:hover {
