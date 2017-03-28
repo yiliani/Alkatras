@@ -36,11 +36,23 @@ body {
 
 .header {
   background-color: #2A2D2E;
-  height: 70px;
+  height: 80px;
   opacity: 0.7;
   text-align: center;
   position: fixed; left: 0px; top: 0px; right: 0px;
   z-index: 1000;
+}
+
+.name > span {
+  font-family: 'Fugaz One', cursive;
+  font-size: 55px;
+  width: 50%;
+  padding: 0px 10px;
+}
+
+.buttons {
+  width: 50%;
+  float: right;
 }
 
 .button {
