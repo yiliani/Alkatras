@@ -30,8 +30,9 @@ body {
   background-size:cover;
   background-attachment: scroll;
   width: auto;
-  height: auto;
+  height: 100%;
   font-family: 'Ropa Sans', sans-serif;
+  position: relative;
 }
 
 .header {
@@ -87,7 +88,7 @@ body {
 
 .contact-content {
   display: flex;
-  margin: 10px;
+  margin: 50px;
 }
 
 .helper1 {
@@ -104,24 +105,24 @@ body {
 p {
   color: #DCDFE0;
   letter-spacing: .1em;
-  font-size: 22px;
+  font-size: 20px;
   margin: 10px;
 }
 
 input {
   font-family: 'Ropa Sans', sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   height: 40px;
-  width: 80%;
+  width: 65%;
   margin: 10px;
   border-radius: 2px;
 }
 
 textarea {
   font-family: 'Ropa Sans', sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   height: 120px;
-  width: 80%;
+  width: 65%;
   margin: 10px;
   border-radius: 2px;
 }
@@ -152,7 +153,7 @@ textarea {
 #About {
   width: 40%;
   display: inline-block;
-  padding: 150px 30px 30px 30px;
+  padding: 30px 30px 30px 30px;
   color: #DCDFE0;
   letter-spacing: .1em;
   font-size: 22px;
@@ -169,12 +170,14 @@ textarea {
 }
 
 #About > a:hover {
-    color: #C8D8DE;
-    cursor: pointer;
+  color: #C8D8DE;
+  cursor: pointer;
 }
 
-#About > img {
-
+.logo > img {
+  height: 270px;
+  width: 440px;
+  padding: 0px 20px 20px 20px;
 }
 
 .Footer{
@@ -185,6 +188,7 @@ textarea {
   margin: 0px;
   z-index: 1000;
   display: flex;
+  position: absolute; left: 0px; bottom: 0px; right: 0px;
 }
 
 .social {
